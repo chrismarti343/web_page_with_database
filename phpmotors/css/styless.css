@@ -1,0 +1,858 @@
+/*General Settings*/
+
+
+body{
+    background: url(small_check.jpg);
+	font-family: "Times New Roman", Times, serif;
+  }
+ 
+
+/*General steeings and styles for screen 400px and lower*/
+/*Iphonex/xs*/
+
+
+.logo_container{
+	display: flex;
+	flex-direction: column;
+}
+
+.logo1{
+	order: 1;	
+	background: url(logo.png) no-repeat;
+	height: 75px;
+	width:  200px;
+	margin: 3px;
+	position: relative;
+}
+
+.logo2{
+	align-self: center;
+	margin: 3px;
+	font-size: 10pt;
+    order: 2;
+}
+
+
+  #page.container{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px ;
+      background: white;
+      border: 4px solid #4c96d7;
+      border-radius: 10px;
+
+  }
+ 
+  /*Menu settings*/
+
+  .clearfix:before,
+  .clearfix:after {
+      content: " ";
+      display: table;
+  }
+  .clearfix:after {
+      clear: both;
+  }
+  .clearfix {
+      *zoom: 1;
+  }
+
+nav {
+	height: 100%;
+	width: 100%;
+	background:#3a3a3a;
+	font-size: 08pt;
+	font-weight: bold;
+	position: relative;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+nav li {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 15px;
+	line-height: 30px;
+
+}
+nav li a {
+	border-right: 1px solid #576979;
+	border-bottom: 1px solid #8d8d8d;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #4c96d7;
+}
+nav a#pull {
+	display: none;
+}
+
+
+/* welcome php text*/
+
+.title1{
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 18pt;
+}
+
+
+/* ACCOUNT INFORMATION */
+
+.title2{
+	margin-left: 5px;
+	
+}
+
+.show-admin{
+	margin-left: 10px;
+
+}
+
+
+.picture_container{
+	display: flex;
+	flex-direction: row;
+	background: url(delorean.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	height: 280px;
+}
+
+/* Own today box */
+
+.buy{
+	width: 50%;
+	font-size: 10pt;
+	margin-left: 12px;
+	color: #4c96d7 ;
+}
+
+.button1{
+	display: none
+}
+
+
+.image_button_container{
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 35%;
+
+}
+
+.button {
+	width: 50%;
+	height: 50%;
+
+}
+
+.information_container{
+	display: flex;
+	flex-direction: column;
+}
+
+.delorean-container{
+	order: 1;
+
+}
+
+.delorean-container ul{
+	font-size: 08pt;
+	padding-left: 7%;
+}
+
+.delorean-container ul li{
+	padding-bottom: 3%;
+	
+
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	order:2;
+}
+
+.flex-container-images {
+	display: flex;
+	height: 5%;
+	flex-wrap: wrap;
+	align-content: space-between;
+	
+  }
+
+.flex-container-images > div {
+	width: 130px;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 30px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+  }
+
+.flex-container-images p {
+	font-size: 10pt;
+	margin: 0px;
+	
+} 
+
+.upgrades{
+	border: 1px solid black;
+	padding: 2px 30px 2px 30px;
+	background-color: #4c96d7;
+	height: 60px;
+	width: 70px;
+	margin: 0px;
+}
+
+/* footer Settings*/
+
+
+hr {
+	border-width: 3px;
+	color: black;
+  }
+  
+  
+.footer1{
+	text-align: center;
+	font-size: 08pt;
+}
+
+/* login configuration */
+
+.login-page{
+	background-color: #4c96d7;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+input{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+input[type=text]{
+   
+	padding: 2px;
+	margin: 10px;
+
+}
+
+input[type=password]{
+
+	padding: 2px;
+	margin: 10px;
+	
+}
+
+input[type=email]{
+	padding: 2px;
+	margin: 10px;
+}
+
+input[type=number]{
+	padding: 2px;
+	margin: 10px;
+}
+
+textarea{
+	padding: 2px;
+	margin: 10px;
+}
+
+
+button.login_botton {
+	background-color: #4CAF50;
+	text-transform: uppercase;
+  	outline: 0;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+
+.message-error p{
+	font-size: 12pt;
+}
+
+.form input {
+	margin: 3px 4% 18px;
+}
+
+.form p{
+	text-align: center;
+	font-size: 24pt;
+	margin-top: 3%;
+}
+
+.already p{
+	text-align: center;
+	font-size: 12pt;
+}
+
+/*
+Password box
+*/
+.input-box{
+	width: 70%;
+	padding-bottom: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.fa{
+	margin-right: 100px;
+}
+
+input#clientPassword{
+	margin-right: 3px;
+	padding: 0px;
+}
+
+span.eye{
+    margin-left: 0px;
+	margin-top: 10px;
+}
+
+#hide1{
+	display:none;
+}
+
+/* ADD CLASSIFICATION */
+
+.add-classification-page{
+	align-items: center;
+	margin: 20px;
+	font-size: 20pt;
+}
+
+.form-new-classification{
+	margin: 20px;
+}
+
+/* ADD VEHICLE */
+
+.add-vehicle-title{
+	font-size: 20pt;
+	font-weight: bold;
+	margin: 20px;
+}
+
+p.only-note{
+	margin: 20px;
+}
+
+.add-vehicle-page{
+	margin: 20px;
+
+}
+
+button.add_vehicle_botton {
+	background-color: #4CAF50;
+	text-transform: uppercase;
+  	outline: 0;
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+
+/* NO DISPLAY ERROR IN NUMBER INPUT*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* ACCOUNT INFORMATION*/
+
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{ 
+	  /*Menu settings for ipad*/
+
+	nav {
+		height: 40px;
+		width: 100%;
+		font-size: 11pt;
+		list-style: none;
+		display: inline-block;
+		}
+
+	nav ul {
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: 40px;
+		display: flex;
+        justify-content: flex-start;
+		}
+	
+	nav li {
+		list-style: none;
+		display: inline-block;
+		width: 100px;
+		}
+	
+	nav a {
+		color: #fff;
+		display: inline-block;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+		text-indent: 0px;
+		line-height: 40px;
+		
+		}
+	
+	nav li a {
+		border-right: 1px solid #576979;
+		border-bottom: 0px solid #8d8d8d;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		}
+
+	nav li:last-child a {
+			border-right: 0;
+			border-left: 0;
+		}
+
+	nav a:hover, nav a:active {
+			background-color: #4c96d7;
+		}
+
+	nav a#pull {
+			display: none;
+		}
+
+
+		/* Logo box settings */
+
+	.logo_container{
+			display: flex;
+			flex-direction: row;
+		}
+
+	.logo2{
+			align-self: center;
+			margin: 3px;
+			margin-left: 60% ;
+			font-size: 10px;
+			order: 2;
+		}
+	
+	#page.container{
+			margin-top: 40px;
+			margin-left: 40px;
+			margin-right: 40px ;
+		}
+
+	.picture_container{
+			background-size: 100% 480px;
+			height: 480px;
+		}
+
+	/* Own today box */
+
+	.buy{
+			font-size: 15pt;
+			margin-left: 12px;
+		}
+
+	.button1{
+			display: block;
+			width: 150px;
+			height: 50px;
+
+		}
+	
+	.image_button_container{
+			display:none;
+		}
+
+	.information_container{
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row;
+		}
+
+	.delorean-container{
+		width: 100%;
+		order: 2;
+
+	}
+
+	.flex-container{
+		width: 100%;
+		order: 1;
+	}
+
+	.flex-container p{
+		font-size: 20pt;
+		font-weight: bold;
+	}
+
+	.flex-container-images > div {
+		width: 160px;
+		align-items: center;
+		margin: 0px;
+	  }
+
+	.flex-container-images > div {
+		width: 165px;
+		align-items: center;
+		margin: 0px;
+	  }
+
+	.upgrades{
+
+		width: 40%;
+		height: 40%;
+		padding: 2px 45px 10% 45px;
+	}
+
+	.delorean-container ul{
+		font-size: 15pt;
+	}
+
+	.delorean-container p{
+		font-size: 20pt;
+		font-weight: bold;
+
+	}
+
+	p.text-link{
+		font-size: 10pt;
+		padding: 0px;
+		margin: 0px;
+		font-weight: normal;
+
+	}
+
+	.footer1{
+		text-align: center;
+		font-size: 12pt;
+	}
+
+	/*settings login*/
+
+	.login-page{
+		margin: 8% 25%;
+		padding: 10px;
+		width: 50%;
+		position: relative;
+		align-items: center;
+	}
+
+	input{
+		display: flex;
+		flex-direction: row;
+		width: 70%;
+		text-align: center;
+		
+	}
+	.form input {
+		margin: 3px 12% 15px;
+	}
+
+
+.message-error p{
+	font-size: 16pt;
+}
+
+
+
+/*
+Password box
+*/
+.input-box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.fa{
+	margin-right: 10px;
+}
+
+input#clientPassword{
+	margin-right: 3px;
+	padding: 0px;
+}
+
+span.eye{
+    margin-left: 0px;
+	margin-top: 10px;
+}
+
+#hide1{
+	display:none;
+}
+}
+
+
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px)   
+{ 
+
+	 /*Menu settings for Laptop touch*/
+	
+	nav {
+		margin-top: 10px;
+		height: 40px;
+		width: 100%;
+		font-size: 11pt;
+		}
+
+	nav ul {
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: 40px;
+		display: flex;
+        justify-content: flex-start;
+		}
+	
+	nav li {
+		list-style: none;
+		display: inline-block;
+		width: 100px;
+
+		}
+	
+	nav a {
+		color: #fff;
+		display: inline-block;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+		text-indent: 0px;
+		line-height: 40px;
+		}
+	
+	nav li a {
+		border-right: 1px solid #576979;
+		border-bottom: 0px solid #8d8d8d;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		}
+
+	nav li:last-child a {
+			border-right: 0;
+			border-left: 0;
+		}
+
+	nav a:hover, nav a:active {
+			background-color: #4c96d7;
+		}
+
+	nav a#pull {
+			display: none;
+		}
+
+	.footer1{
+			text-align: center;
+			font-size: 12pt;
+		}
+
+	
+	/* Logo box settings */
+
+	.logo_container{
+			display: flex;
+			flex-direction: row;
+		}
+
+	.logo2{
+			align-self: center;
+			margin: 3px;
+			margin-left: 70% ;
+			font-size: 10pt;
+			order: 2;
+		}
+	
+	#page.container{
+			margin-top: 40px;
+			margin-left: 40px;
+			margin-right: 40px ;
+		}
+
+
+	.picture_container{
+			background-size: 100% 580px;
+			height: 580px;
+		}
+
+	/* Own today box */
+
+	.buy{
+			font-size: 20pt;
+			margin-left: 12px;
+			
+		}
+
+	.button1{
+			display: block;
+			width: 200px;
+			height: 65px;
+
+		}
+
+	.image_button_container{
+			display:none;
+		}
+
+		.information_container{
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row;
+		}
+
+	.delorean-container{
+		width: 100%;
+		order: 2;
+
+	}
+	
+	.delorean-container p{
+		font-size: 30pt;
+		font-weight: bold;
+	}
+
+	.flex-container{
+		width: 100%;
+		order: 1;
+	}
+
+	.flex-container p{
+		font-size: 30pt;
+		font-weight: bold;
+	}
+
+	.flex-container-images > div {
+		width: 280px;
+		align-items: center;
+		margin: 0px;
+	  }
+
+	.upgrades{
+
+		width: 50%;
+		height: 50%;
+		padding: 2px 65px 10% 65px;
+	}
+
+	.delorean-container ul{
+		font-size: 25pt;
+	}
+
+	p.text-link{
+		font-size: 10pt;
+		padding: 0px;
+		margin: 0px;
+		font-weight: normal;
+
+	}
+
+	/* Setting for login*/
+	.login-page{
+		margin: 5% 25%;
+		padding: 30px;
+		width: 50%;
+		position: relative;
+		align-items: center;
+	}
+
+	input{
+		display: flex;
+		flex-direction: row;
+		width: 70%;
+		text-align: center;
+	}
+
+	.form input {
+		margin: 5px 12% 15px;
+	}
+	
+	/*
+Password box
+*/
+.input-box{
+	margin: 1px auto;
+	width: 100%;
+	padding-bottom: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+}
+
+.message-error p{
+	font-size: 16pt;
+}
+
+
+input#clientPassword{
+	margin-right: 3px;
+}
+
+.fa{
+	margin-right: 10px;
+}
+
+span.eye{
+    margin-left: 0px;
+	margin-top: 11px;
+}
+
+#hide1{
+	display:none;
+}
+
+
+}
+
+
